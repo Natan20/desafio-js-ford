@@ -2,7 +2,7 @@
 
 //carousel
 
-//Array storage class // Array responsável por armazenar os itens do carrossel
+// Array responsável por armazenar os itens do carrossel
 let carouselArr = [];
 
 
@@ -26,7 +26,7 @@ class Carousel {
             if(arr.length > 0){    // Verifica se o array existe
                 Carousel._sequence = 0; // Define o índice inicial
                 Carousel._size = arr.length; // Guarda o tamanho total do array
-                Carousel.Next(); //start // Exibe o primeiro item imediatamente
+                Carousel.Show(); // MOSTRA PRIMEIRO SLIDE   //Carousel.Next(); //start // Exibe o primeiro item imediatamente
                 Carousel._interval = setInterval(function(){ Carousel.Next(); },5000); // Cria o loop automático do carrossel
 
                 //Botão Próximo 

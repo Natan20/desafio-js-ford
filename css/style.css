@@ -127,6 +127,7 @@ button {
     width: 100%;
 }
 
+/*Comecei a estilizar daqui*/
 
 #prev-btn,
 #next-btn {
@@ -162,3 +163,4 @@ button {
 #next-btn {
     right: 20px;
 }
+
